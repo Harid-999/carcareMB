@@ -69,6 +69,7 @@ class DB_con{
     }
 
     // select ก่อน update    :   fetch_update_booking
+    // select ก่อน update    :   fetch_update_booking
     public function fetch_update_booking($user_id, $booking_id){
         $resultfetchBooking= mysqli_query($this->dbcon, "SELECT *,package.package_name as packName  FROM booking
         left join package 
