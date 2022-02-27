@@ -1,18 +1,13 @@
 <?php
-    define("DB_SERVER", "localhost");
-    define("DB_USER", "root");
-    define("DB_PASS", "");
-    define("DB_NAME", "mbcarcare");
+    // define("DB_SERVER", "localhost");
+    // define("DB_USER", "root");
+    // define("DB_PASS", "");
+    // define("DB_NAME", "mbcarcare");
 
-    // define("DB_SERVER", "http://dns.komkawila.com");
-    // define("DB_USER", "carcaresystem");
-    // define("DB_PASS", "P@ssw0rd");
-    // define("DB_NAME", "mbCarcare");
-
-    // define("DB_SERVER", "dns.komkawila.com");
-    // define("DB_USER", "carcaresystem");
-    // define("DB_PASS", "P@ssw0rd");
-    // define("DB_NAME", "mbCarcare");
+    define("DB_SERVER", "dns.komkawila.com");
+    define("DB_USER", "carcaresystem");
+    define("DB_PASS", "P@ssw0rd");
+    define("DB_NAME", "mbCarcare");
 
 class DB_con{
     function __construct(){ 
