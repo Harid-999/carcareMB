@@ -24,7 +24,7 @@ $menu = "Customer";
       <form action="booking.php" method="get" >
         <div align="right">
 
-        <p>เลือกวันที่ล้างรถ : <input type="text" id="datepicker" name="dateWash"></p>
+        <p>เลือกวันที่ล้างรถ : <input type="date" id="datepicker" name="dateWash"></p>
         <button type="submit" class="btn btn-success btn-xs" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i> จองคิวล้างรถ</button></a>
         </div>
       </div>
